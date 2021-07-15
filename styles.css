@@ -1,0 +1,303 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 auto;
+    background-color: #DBE9EE;
+}
+
+header {
+    background-color: #466995;
+    border-bottom: 1px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #FFF;
+  }
+
+  nav a:hover {
+    color: #DBE9EE;
+  }
+
+  nav a:visited {
+      color: #FFF;
+  }
+
+  nav a:visited:hover {
+      color: #DBE9EE;
+  }
+
+  nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 120px;  
+  }
+
+  nav ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  nav li:hover {
+    color: #DBE9EE;
+  }
+
+  .intro {
+    background-color: #DBE9EE;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+
+  .container {
+    position: relative;
+    top: 40px;
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: white;
+  }
+
+  .colour-container{
+      width: 100%;
+      padding: 0px 50px;
+  }
+
+  .colour-panel {
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    margin: 0px auto;
+    min-height: 100px;
+  }
+
+  .dark-blue {
+    background-color: #0E0E52;
+    color: white;
+  }
+
+  .blue {
+    background-color: #A1C6EA;
+    color: white;
+  }
+
+  .soft-blue {
+    background-color: #BBD1EA;
+    color: white;
+  }
+
+  .pink {
+    background-color: #EA9AB2;
+    color: white;
+  }
+
+  .dark-pink {
+    background-color: #982649;
+    color: white;
+  }
+
+  .tan {
+    background-color: #DDAF94;
+    color: white;
+  }
+
+  .soft-tan {
+    background-color: #E8CEBF;
+    color: white;
+  }
+
+  .forest-green {
+    background-color: #266150;
+    color: white;
+  }
+
+  .brown {
+    background-color: #4F4846;
+    color: white;
+  }
+
+  .bone-white {
+    background-color: #FDF8F5;
+    color: black;
+  }
+
+  .blue-grey {
+    background-color: #3B414B;
+    color: white;
+  }
+
+  .pinky-pink {
+      background-color: #F7E4EA;
+      color: white;
+  }
+
+  .blue-green {
+    background-color: #74BBB7;
+    color: white;
+}
+
+ .green-white {
+    background-color: #E7F6F3;
+    color: black;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.dark-purple {
+    background-color: #322638;
+    color: white;
+}
+
+.maroon {
+    background-color: #791734;
+    color: white;
+}
+
+.coral-red {
+    background-color: #DE4A5B;
+    color: white;
+}
+
+.deep-yellow {
+    background-color: #E5AC42;
+    color: black;
+}
+
+.soft-yellow {
+    background-color: #FBF3DC;
+    color: black;
+}
+
+.font-panel {
+    width: 30%;
+    display: inline-block;
+  }
+  
+  .font-label {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .regular {
+    font-style: normal;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+
+  .source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  .Merriweather {
+      font-family: 'Merriweather', serif;
+  }
+
+  .Gentium-Book-Basic {
+      font-family: 'Gentium Book Basic', serif;
+  }
+
+  .nunito-sans {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .Oswald {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  h3 {
+      font-size: 20px;
+  }
+
+  .buttons-panel {
+    width: 35%;
+    display: inline-block;
+    margin: 10px;
+  }
+
+  footer {
+    background-color: #DBE9EE;
+    padding: 70px;
+    width: 100%;
+  }
+
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px 10px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  
+  /* Set a specific color for each brand */
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
